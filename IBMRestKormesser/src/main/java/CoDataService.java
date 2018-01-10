@@ -25,7 +25,6 @@ public class CoDataService {
             BufferedReader br = new BufferedReader(new URLReader(url));
             String line;
             StringBuilder allLines = new StringBuilder();
-            StringBuilder retval = new StringBuilder();
             List<CoBuildings> datalist = new ArrayList<>();
             GsonBuilder builder = new GsonBuilder();
             Gson gs = builder.create();
